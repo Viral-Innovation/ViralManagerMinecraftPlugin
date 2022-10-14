@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.viralinnovation'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://maven.viral-innovation.com/repository/maven-releases/'
+        allowInsecureProtocol = true
+    }
+}
+
+dependencies {
+    compileOnly 'com.viralinnovation:ViralManagerAPI:1.0.0-21'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+}
+
+test {
+    useJUnitPlatform()
+}
