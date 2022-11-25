@@ -4,6 +4,7 @@ import com.viralinnovation.viralmanager.api.architecture.ArchitectureEntity;
 import com.viralinnovation.viralmanager.api.architecture.JVMEntity;
 import com.viralinnovation.viralmanager.api.services.ServiceType;
 import com.viralinnovation.viralmanager.api.services.record.ServiceEntity;
+import com.viralinnovation.viralmanager.api.services.response.ServiceResponse;
 
 import javax.persistence.Entity;
 import java.util.Objects;
@@ -60,5 +61,10 @@ public class PaperServiceEntity extends ServiceEntity {
                 ", isSystem=" + isSystem +
                 ", endpoint=" + endpoint +
                 '}';
+    }
+
+    @Override
+    public ServiceResponse getResponse(ServiceEntity serviceEntity, ArchitectureEntity architectureEntity) {
+        return new PaperServiceResponse((PaperServiceEntity) serviceEntity, (JVMEntity) architectureEntity);
     }
 }

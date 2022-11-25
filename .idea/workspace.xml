@@ -8,18 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a6744b-050f-434c-be69-564a9b021352" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperFormEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/paperservice.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viralinnovation/example/ExamplePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/MinecraftPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/viralinnovation/example/ExamplePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/viralinnovation/minecraftplugin/ExamplePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +87,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/ViralSite&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/BedwarsPlugin&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -204,7 +195,8 @@
       <workItem from="1666892031676" duration="1146000" />
       <workItem from="1667140754142" duration="6487000" />
       <workItem from="1668894332437" duration="1004000" />
-      <workItem from="1668948647913" duration="1205000" />
+      <workItem from="1668948647913" duration="1848000" />
+      <workItem from="1669410610582" duration="411000" />
     </task>
     <servers />
   </component>
