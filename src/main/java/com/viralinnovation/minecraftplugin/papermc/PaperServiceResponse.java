@@ -6,7 +6,7 @@ import com.viralinnovation.viralmanager.api.services.response.ServiceResponse;
 public class PaperServiceResponse extends ServiceResponse {
 
     private int xmx;
-    private int mcVersion;
+    private String mcVersion;
 
     public PaperServiceResponse(PaperServiceEntity paperServiceEntity, JVMEntity jvmEntity) {
         super(paperServiceEntity, jvmEntity);
@@ -14,7 +14,7 @@ public class PaperServiceResponse extends ServiceResponse {
         this.mcVersion = paperServiceEntity.getMcVersion();
     }
 
-    public int getMcVersion() {
+    public String getMcVersion() {
         return mcVersion;
     }
 

@@ -13,28 +13,28 @@ import java.util.UUID;
 @Entity
 public class PaperServiceEntity extends ServiceEntity {
 
-    private int mcVersion;
+    private String mcVersion;
 
     public PaperServiceEntity() {
         super();
-        this.mcVersion = 19;
+        this.mcVersion = "19";
     }
 
-    public PaperServiceEntity(JVMEntity jvmEntity, String name, UUID endpoint, ServiceType<? extends ArchitectureEntity, ? extends ServiceEntity> type, int mcVersion) {
+    public PaperServiceEntity(JVMEntity jvmEntity, String name, UUID endpoint, ServiceType<? extends ArchitectureEntity, ? extends ServiceEntity> type, String mcVersion) {
         super(jvmEntity, name, endpoint, type);
         this.mcVersion = mcVersion;
     }
 
-    public PaperServiceEntity(JVMEntity jvmEntity, String name, UUID endpoint, Boolean system, ServiceType<? extends ArchitectureEntity, ? extends ServiceEntity> type, int mcVersion) {
+    public PaperServiceEntity(JVMEntity jvmEntity, String name, UUID endpoint, Boolean system, ServiceType<? extends ArchitectureEntity, ? extends ServiceEntity> type, String mcVersion) {
         super(jvmEntity, name, endpoint, system, type);
         this.mcVersion = mcVersion;
     }
 
-    public int getMcVersion() {
+    public String getMcVersion() {
         return mcVersion;
     }
 
-    public void setMcVersion(int mcVersion) {
+    public void setMcVersion(String mcVersion) {
         this.mcVersion = mcVersion;
     }
 
@@ -43,7 +43,7 @@ public class PaperServiceEntity extends ServiceEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PaperServiceEntity that = (PaperServiceEntity) o;
-        return mcVersion == that.mcVersion;
+        return mcVersion.equals(that.mcVersion);
     }
 
     @Override

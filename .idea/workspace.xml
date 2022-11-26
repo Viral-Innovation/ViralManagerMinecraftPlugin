@@ -8,9 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a6744b-050f-434c-be69-564a9b021352" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/paperapi/PaperAPIManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/paperapi/PaperProjectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/paperapi/PaperVersionData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/MinecraftPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/MinecraftPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperFormEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperFormEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/minecraftplugin/papermc/PaperServiceResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +54,12 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ViralManagerMinecraftPlugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -57,6 +71,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -101,7 +116,41 @@
       <recent name="D:\GitHub\ViralManagerMinecraftPlugin\src\main\resources\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ViralManagerPluginTemplate [build]">
+  <component name="RunManager" selected="Gradle.ViralManagerMinecraftPlugin [shadowJar]">
+    <configuration name="PaperAPIManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.viralinnovation.minecraftplugin.paperapi.PaperAPIManager" />
+      <module name="ViralManagerMinecraftPlugin.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.viralinnovation.minecraftplugin.paperapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViralManagerMinecraftPlugin [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ViralManagerPluginTemplate [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -166,14 +215,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.PaperAPIManager" />
+      <item itemvalue="Gradle.ViralManagerMinecraftPlugin [shadowJar]" />
       <item itemvalue="Gradle.ViralManagerPluginTemplate [build]" />
       <item itemvalue="Gradle.ViralManagerPluginTemplate [clean]" />
       <item itemvalue="Gradle.ViralManagerPluginTemplate [dependencies]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ViralManagerPluginTemplate [build]" />
+        <item itemvalue="Gradle.ViralManagerMinecraftPlugin [shadowJar]" />
         <item itemvalue="Gradle.ViralManagerPluginTemplate [clean]" />
+        <item itemvalue="Gradle.ViralManagerPluginTemplate [build]" />
+        <item itemvalue="Application.PaperAPIManager" />
         <item itemvalue="Gradle.ViralManagerPluginTemplate [dependencies]" />
       </list>
     </recent_temporary>
@@ -196,7 +249,9 @@
       <workItem from="1667140754142" duration="6487000" />
       <workItem from="1668894332437" duration="1004000" />
       <workItem from="1668948647913" duration="1848000" />
-      <workItem from="1669410610582" duration="411000" />
+      <workItem from="1669410610582" duration="459000" />
+      <workItem from="1669416245783" duration="936000" />
+      <workItem from="1669417729890" duration="14772000" />
     </task>
     <servers />
   </component>

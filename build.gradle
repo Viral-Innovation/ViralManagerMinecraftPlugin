@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
 group 'com.viralinnovation'
@@ -14,7 +15,9 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.viralinnovation:ViralManagerAPI:1.0.0-43'
+    compileOnly 'com.viralinnovation:ViralManagerAPI:1.0.0-63'
+    implementation 'org.asynchttpclient:async-http-client:2.12.3'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
 }
